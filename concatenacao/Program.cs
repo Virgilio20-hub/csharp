@@ -25,3 +25,12 @@ Console.WriteLine("A variavel valorTexto e do tipo:" + valorTexto.GetType());
 int numero1 = int.Parse(valorTexto);
 Console.WriteLine(numero1);
 Console.WriteLine("A variavel numeroParse e do tipo:" +numero1.GetType());
+
+// Metodo Convert
+string valorEmTexto = "100";
+Console.WriteLine("Valor da variavel String: " + valorEmTexto);
+Console.WriteLine("A variavel valorTexto e do tipo:" + valorEmTexto.GetType());
+
+int numeroConvertido = Convert.ToInt32(valorEmTexto);
+Console.WriteLine(numeroConvertido);
+Console.WriteLine("Apos concersao a variavel numeroConvertido e do tipo: " + numeroConvertido.GetType());
