@@ -48,3 +48,7 @@ Console.WriteLine(dataAtual);
 
 string dataHoraFormatada = dataAtual.ToString("dd/MM/yyyy HH:mm");
 Console.WriteLine(dataHoraFormatada);
+
+// Converter Qualquer tipo para String com ToString () e usando interpolacao de Strings
+double preco = 29.99;
+Console.WriteLine($"O preco e: {preco.ToString("C2")}");
