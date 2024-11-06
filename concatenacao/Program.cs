@@ -34,3 +34,10 @@ Console.WriteLine("A variavel valorTexto e do tipo:" + valorEmTexto.GetType());
 int numeroConvertido = Convert.ToInt32(valorEmTexto);
 Console.WriteLine(numeroConvertido);
 Console.WriteLine("Apos concersao a variavel numeroConvertido e do tipo: " + numeroConvertido.GetType());
+
+// Metodo ToString
+int numero = 123;
+Console.WriteLine(numero.GetType());
+
+string numeroComoString = numero.ToString();
+Console.WriteLine(numeroComoString.GetType());
