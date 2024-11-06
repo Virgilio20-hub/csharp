@@ -41,3 +41,10 @@ Console.WriteLine(numero2.GetType());
 
 string numero2ComoString = numero2.ToString();
 Console.WriteLine(numero2ComoString.GetType());
+
+// Personalizacao de Formatacao para data e hora
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual);
+
+string dataHoraFormatada = dataAtual.ToString("dd/MM/yyyy HH:mm");
+Console.WriteLine(dataHoraFormatada);
