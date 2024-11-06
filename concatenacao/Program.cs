@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Diagnostics.Contracts;
+
 Console.WriteLine("Hello, World!");
 
 // Concatenacao
@@ -52,3 +54,11 @@ Console.WriteLine(dataHoraFormatada);
 // Converter Qualquer tipo para String com ToString () e usando interpolacao de Strings
 double preco = 29.99;
 Console.WriteLine($"O preco e: {preco.ToString("C2")}");
+
+// Formatacao de acordo com a localizacao
+decimal valor = 1234.56m;
+string valorUS = valor.ToString("C", new System.Globalization.CultureInfo("en-US"));
+Console.WriteLine(valorUS);
+
+string valorBR = valor.ToString("C", new System.Globalization.CultureInfo("pt-BR"));
+Console.WriteLine(valorBR);
