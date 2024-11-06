@@ -36,8 +36,8 @@ Console.WriteLine(numeroConvertido);
 Console.WriteLine("Apos concersao a variavel numeroConvertido e do tipo: " + numeroConvertido.GetType());
 
 // Metodo ToString
-int numero = 123;
-Console.WriteLine(numero.GetType());
+int numero2 = 123;
+Console.WriteLine(numero2.GetType());
 
-string numeroComoString = numero.ToString();
-Console.WriteLine(numeroComoString.GetType());
+string numero2ComoString = numero2.ToString();
+Console.WriteLine(numero2ComoString.GetType());
