@@ -12,3 +12,11 @@ while (contador != numero)
     contador++;
 }
 Console.WriteLine($"Contador atingiu o numero alvo: {contador}");
+//Estrutura de Repeticao do-while
+int numero = 11;
+
+do
+{
+    Console.WriteLine($"numero: {numero}");
+    numero++;
+} while (numero < 10);
