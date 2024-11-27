@@ -1,0 +1,8 @@
+C:\Users\SENAC\Documents\GitHub\csharp\exercicio_classes\poo_csharp\obj\Debug\net7.0\poo-csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Documents\GitHub\csharp\exercicio_classes\poo_csharp\obj\Debug\net7.0\poo-csharp.AssemblyInfoInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\exercicio_classes\poo_csharp\obj\Debug\net7.0\poo-csharp.AssemblyInfo.cs
+C:\Users\SENAC\Documents\GitHub\csharp\exercicio_classes\poo_csharp\obj\Debug\net7.0\poo-csharp.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\poo_csharp\obj\Debug\net7.0\poo-csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Documents\GitHub\csharp\poo_csharp\obj\Debug\net7.0\poo-csharp.AssemblyInfoInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\poo_csharp\obj\Debug\net7.0\poo-csharp.AssemblyInfo.cs
+C:\Users\SENAC\Documents\GitHub\csharp\poo_csharp\obj\Debug\net7.0\poo-csharp.csproj.CoreCompileInputs.cache
