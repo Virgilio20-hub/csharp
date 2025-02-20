@@ -1,0 +1,31 @@
+def Calculadora():
+    print("calculadora basica")
+    print("Operações disponiveis:")
+    print("1 - Adição")
+    print("2 - Subtração")
+    print("3 - Multiplicação")
+    print("4 - Divisão")
+    operação = input("escolha a operação (1/2/3/4): ")
+    if operação not in["1", "2", "3", "4"]:
+        print("operção invalida!")
+        return
+    number1 = float (input("digite o primeiro numero:"))
+    number2 = float (input("digite o segundo numero:"))
+    if operação == "1" :
+        resultado = number1 + number2
+        print(f"a resposta da adição é:, {resultado}")
+    elif operação == "2" :
+        resultado = number1 - number2
+        print(f"a resposta da subtração é: {resultado}")
+    elif operação == "3" :
+        resultado = number1 * number2
+        print(f"a resposta da multiplicação é: {resultado}")
+    elif operação == "4" :
+        if number2 == 0:
+            resultado = number1 / number2
+            print(f"a resposta da divisão é: {resultado}")
+    else:
+        print(f"resultado: {resultado: .2f}")
+Calculadora()
+        
+        
